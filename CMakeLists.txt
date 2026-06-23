@@ -4,8 +4,8 @@ project(RaycastPlatformer)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Library
-find_package(SFML 3 COMPONENTS Graphics Window System REQUIRED)
+# Add local SFML
+add_subdirectory(third_party/SFML)
 
 add_library(core
     lib/test.cpp

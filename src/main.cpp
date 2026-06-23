@@ -1,14 +1,4 @@
 #include <iostream>
-// #include <SFML/Graphics.hpp>
-// #include "../include/test.h"
-
-// int main()
-// {
-//     std::cout << "hello world" << " " << test() << std::endl;
-
-//     return 0;
-// }
-
 #include <SFML/Graphics.hpp>
 
 int main()
